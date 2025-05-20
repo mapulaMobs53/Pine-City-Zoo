@@ -1,0 +1,74 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*header styles*/
+#header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 500;
+    width: 100%;
+    height: 80px;
+    background-image: url('AppAcademyWeek3-main/pineCityZooImages/images/wood-bg.png');
+    background-repeat: repeat-x;
+}
+#header img{
+    display: block;
+    margin: auto;
+    height: 70%;
+    padding-top: 15px;
+}
+/*top-tabs styling*/
+#tabs-top{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: darkgreen;
+
+}
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+     text-align: center;
+     text-decoration: none;
+     padding-top: 12px;
+}
+
+/*styling the content area*/
+
+#main-home{
+    margin-top: 120px; 
+}
+
+/*Bottom Tabs*/
+
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: forestgreen;
+}
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 33px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
