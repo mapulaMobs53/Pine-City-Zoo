@@ -123,3 +123,18 @@ a.info-box{
 }
 /*add the Elephant's Page*/
 
+#info-box-full{
+    background-color: rgba(255,255,255,.8);
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+#info-box-full img{
+    width: 100%;
+}
+
+#info-box-full h3{
+    text-align: center;
+}
